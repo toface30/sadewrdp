@@ -111,8 +111,3 @@ jobs:
               Write-Host "[$(Get-Date)] RDP Active - Use Ctrl+C in workflow to terminate"
               Start-Sleep -Seconds 300
           }
-- name: Save results
-  uses: actions/upload-artifact@v4
-  with:
-    name: my-data
-    path: C:\Users\sadew dewmina\Documents\git
